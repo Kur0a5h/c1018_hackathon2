@@ -133,7 +133,7 @@ class Map {
             if (!!place.formatted_phone_number) contentStr += '<br>' + place.formatted_phone_number;
             if (!!place.website) contentStr += '<br><a target="_blank" href="' + place.website + '">' + place.website + '</a>';
             contentStr += '<br>' + '</p>';
-            contentStr += '<p><a class="yelp-transition">Get YELP details</a></p>';
+            // contentStr += '<p><a class="yelp-transition">Get YELP details</a></p>';
             this.theaterInfoWindow.setContent(contentStr);
             // if (this.lastWindow) {
             //     this.lastWindow.close()

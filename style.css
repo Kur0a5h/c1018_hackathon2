@@ -1904,12 +1904,12 @@
     }
     
     .trailerContainer {
+        position: relative;
         vertical-align: top;
         font-weight: bold;
         font-size: 0;
         border: 1px solid black;
         display: inline-block;
-        height: 70%;
         width: 100%;
     }
     
